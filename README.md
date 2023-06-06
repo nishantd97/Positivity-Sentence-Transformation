@@ -3,7 +3,7 @@ The Positivity Sentence Transformation is an innovative initiative aimed at refr
 
 This project is an implementation of the t5 model mentioned in the paper "Inducing Positive Perspectives with Text Reframing". The dataset used for training the t5 transformer model is called "Positive Psychology Frames".
 
-# How to run the models?
+# How to run the models? 
 ## Set up the environment
 ### Windows
 
@@ -21,6 +21,9 @@ Install anaconda, then run
 
 ```pip install -r requirements.txt```
 
+
+## Train/Download the models
+You can train your own models using the ```train.py``` file or you can download the trained models from https://drive.google.com/drive/folders/1zt1PYDNTx7660sUJAFOksW6IKhzHjBRV?usp=sharing. If you download the models then put all the models in the models folder. The models can be tested using ```test.py``` file and it's output is generated in the ```output``` folder. 
 
 ## Run the app
 ```python app.py```
